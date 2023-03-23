@@ -1,10 +1,7 @@
-def palindrome(string):  # checking palindrome
-    if string == string[::-1]:  # if string equals reverse string
+def palindrome(string):  
+    if string == string[::-1]:  
         print("The given string is palindrome")
     else:
         print("The given string is not palindrome")
-
-
-# main program
-input_string = input("Enter the String : ")  # taking input
+input_string = input("Enter the String : ") 
 palindrome(input_string)
