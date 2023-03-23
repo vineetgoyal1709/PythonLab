@@ -1,7 +1,7 @@
-def factorial(num):  # factorial of number
-    if num == 0:  # fact of 0 is 1.
+def factorial(num): 
+    if num == 0: 
         return 1
-    else:  # fact of other numbers is calculated here
+    else:  
         fact = 1
         while num > 0:
             fact *= num
