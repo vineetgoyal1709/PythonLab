@@ -1,2 +1,0 @@
-# PythonLab
-python lab assignment
