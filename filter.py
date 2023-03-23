@@ -6,6 +6,6 @@ def fun(i):
 
 
 List = [1, 2, 3, 4, 5, 6]
-a = filter(fun, List)  # filters the elements without using loops
+a = filter(fun, List) 
 for i in a:
     print(i)
