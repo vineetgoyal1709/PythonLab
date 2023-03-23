@@ -14,9 +14,6 @@ def multiplication(x, y):
 def division(x, y):  
     div = x / y
     return div
-
-
-# main program
 num1 = int(input("Enter First number:"))  # input1
 num2 = int(input("Enter Second number:"))  # input2
 op = input('''
@@ -25,7 +22,6 @@ op = input('''
 3 ----- MULTI
 4 ----- DIV
 Enter operation : ''')
-# operators for choosing
 if op == '1':
     print(f'Addition of numbers {num1} and {num2} is {addition(num1, num2)}')
 elif op == '2':
